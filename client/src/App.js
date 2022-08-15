@@ -21,6 +21,7 @@ function App() {
         });
     }, []);
 
+    // 벡엔드의 "/home" 으로 온 데이터를 프론트의 "/" 애서 가져옴
     return (
         <div className="App">
             <header className="App-header">{testStr}</header>
